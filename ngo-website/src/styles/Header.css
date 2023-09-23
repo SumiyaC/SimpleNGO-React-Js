@@ -1,0 +1,55 @@
+/* Header.css */
+body {
+  margin: 0;
+  padding: 0;
+}
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 85px;
+    padding: 10px 20px; 
+    background-color: #bdbb33;
+  }
+  .logo img {
+    height: 40px; /* Set the height of the logo image */
+    margin-right: 10px; /* Add margin for spacing between logo and text */
+  }
+  .ngo-name {
+    font-weight: bold;
+    margin-right: 120px; /* Add a margin to create a gap */
+
+    font-size: 40px; /* Adjust the size as needed */
+    font-weight: bold;
+    /* text-shadow: -2px 0 #928a8a, 0 2px #928a8a, 2px 0 #928a8a, 0 -2px #928a8a; */
+    color: black;
+
+  }
+  
+  .header-links {
+    display: flex;
+    margin-right: 10px; /* Add margin to separate links from the button */
+  }
+  
+  .header-link {
+    margin-right: 50px; /* Add margin between links */
+  }
+  
+  .donate-button {
+    background-color: white; /* Example button styling */
+    color: black;
+    padding: 10px 20px;
+    border:2px black;
+    cursor: pointer;
+    margin-right: 50px; /* Add margin to separate button from the search bar */
+  }
+  
+  .search-bar {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 20px; /* Add margin to separate search bar from the button */
+  }
+  
+  /* Add more styling as needed */
+  
