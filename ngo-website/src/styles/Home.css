@@ -34,11 +34,12 @@
   }
   
   .read-more-button {
-    padding: 10px 20px; /* Adjust button padding */
+    padding: 8px 20px; /* Adjust button padding */
     position: absolute;
     background-color: #bdbb33; /* Button background color */
     color: white; /* Button text color */
-    border: none;
+    border: solid #ccc;
+    border-radius: 4px;
     cursor: pointer;
   }
   

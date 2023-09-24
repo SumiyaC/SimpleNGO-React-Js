@@ -12,15 +12,14 @@ body {
     background-color: #bdbb33;
   }
   .logo img {
-    height: 40px; /* Set the height of the logo image */
-    margin-right: 10px; /* Add margin for spacing between logo and text */
+    height: 55px; /* Set the height of the logo image */
+    margin-right: 5px;
+    margin-top: 5px; /* Add margin for spacing between logo and text */
   }
   .ngo-name {
     font-weight: bold;
     margin-right: 120px; /* Add a margin to create a gap */
-
     font-size: 40px; /* Adjust the size as needed */
-    font-weight: bold;
     /* text-shadow: -2px 0 #928a8a, 0 2px #928a8a, 2px 0 #928a8a, 0 -2px #928a8a; */
     color: black;
 
@@ -32,24 +31,30 @@ body {
   }
   
   .header-link {
-    margin-right: 50px; /* Add margin between links */
+    margin-right: 50px; 
+    /* font-weight: 600; */
   }
   
   .donate-button {
-    background-color: white; /* Example button styling */
+    background-color: rgba(0, 0, 0, 0.1); /* Example button styling */
     color: black;
-    padding: 10px 20px;
-    border:2px black;
+    padding: 8px 20px;
+    border:1px solid black;
+    border-radius: 4px;
     cursor: pointer;
     margin-right: 50px; /* Add margin to separate button from the search bar */
   }
-  
+  .donate-button:hover {
+    background-color: #bdbb33; /* Button background color on hover */
+  }
   .search-bar {
     padding: 8px;
-    border: 1px solid #ccc;
+    background-color: rgba(0, 0, 0, 0.1);
+    border: 1px solid black;
     border-radius: 4px;
     margin-right: 20px; /* Add margin to separate search bar from the button */
   }
+  
   
   /* Add more styling as needed */
   
