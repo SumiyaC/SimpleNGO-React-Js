@@ -1,49 +1,48 @@
 .home {
-    position: relative;
-    background-image: url('../images/ngo4.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    height: 100vh; /* Adjust the height to your preference */
-  
-    /* Additional styles such as background color, text color, etc. can be added here */
-  }
-  
-  .text-overlay {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    color: white; /* Text color */
-    font-size: 24px; /* Adjust the font size */
-  }
-  
-  .background-overlay {
-    position: absolute;
-    top: 38%;
-    left: 25%;
-    width: 50%;
-    height: 23%;
-    background-color: rgba(0, 0, 0, 0.4); /* Adjust the opacity by changing the last value (0.5) */
-  }
-  
-  .home-text {
-    margin-bottom: 20px; /* Adjust the spacing between lines of text */
-    font-size: 30px; /* Adjust the font size */
-  }
-  
-  .read-more-button {
-    padding: 8px 20px; /* Adjust button padding */
-    position: absolute;
-    background-color: #bdbb33; /* Button background color */
-    color: white; /* Button text color */
-    border: solid #ccc;
-    border-radius: 4px;
-    cursor: pointer;
-  }
-  
-  .read-more-button:hover {
-    background-color: grey; /* Button background color on hover */
-  }
-  
+  position: relative;
+  background-image: url('../images/ngo4.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100vh;
+
+  /* Additional styles such as background color, text color, etc. can be added here */
+}
+
+.text-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white; /* Text color */
+  font-size: 24px; /* Adjust the font size */
+}
+
+.background-overlay {
+  position: absolute;
+  top: 38%;
+  left: 25%;
+  width: 50%;
+  height: 23%;
+  background-color: rgba(0, 0, 0, 0.4); /* Adjust the opacity by changing the last value (0.5) */
+}
+
+.home-text {
+  margin-bottom: 20px; /* Adjust the spacing between lines of text */
+  font-size: 30px; /* Adjust the font size */
+}
+
+.read-more-button {
+  padding: 8px 20px; /* Adjust button padding */
+  position: absolute;
+  background-color: #bdbb33; /* Button background color */
+  color: white; /* Button text color */
+  border: solid #ccc;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.read-more-button:hover {
+  background-color: grey; /* Button background color on hover */
+}

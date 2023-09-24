@@ -45,7 +45,7 @@ body {
     margin-right: 50px; /* Add margin to separate button from the search bar */
   }
   .donate-button:hover {
-    background-color: #bdbb33; /* Button background color on hover */
+    background-color: white; /* Button background color on hover */
   }
   .search-bar {
     padding: 8px;
@@ -53,8 +53,26 @@ body {
     border: 1px solid black;
     border-radius: 4px;
     margin-right: 20px; /* Add margin to separate search bar from the button */
+    transition: background-color 0.3s;
+  }
+
+  .search-bar:hover {
+    background-color: white; /* Change background color to gray on hover */
   }
   
+  .header-links {
+    display: flex;
+    align-items: center;
+  }
   
-  /* Add more styling as needed */
+  .header-link {
+    text-decoration: none; /* Remove the underline */
+    color: black; /* Set the default text color to black */
+    margin: 0 20px; /* Add spacing between the links */
+    transition: color 0.3s; /* Smooth color transition on hover */
+  }
+  
+  .header-link:hover {
+    color: white; /* Change text color to white on hover */
+  }
   

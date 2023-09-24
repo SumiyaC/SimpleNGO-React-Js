@@ -1,5 +1,6 @@
 import React from 'react';
 import '../styles/Header.css';
+import { Link } from 'react-router-dom';
 
 // Import your CSS file for styling
 
@@ -11,10 +12,10 @@ function Header() {
       </div>
       <div className="ngo-name">Nisum</div>
       <div className="header-links">
-        <div className="header-link">Home</div>
-        <div className="header-link">About</div>
-        <div className="header-link">Events</div>
-        <div className="header-link">Contact</div>
+        <Link to="/" className="header-link">Home</Link>
+        <Link to="/about" className="header-link">About</Link>
+        <Link to="/events" className="header-link">Events</Link>
+        <Link to="/contact" className="header-link">Contact</Link>
       </div>
       <button className="donate-button">DONATE</button>
       <input type="text" placeholder="Search" className="search-bar" />

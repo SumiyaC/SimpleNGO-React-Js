@@ -1,25 +1,3 @@
-// import React from 'react';
-// import '../styles/Home.css'; // Import the CSS file for styling
-
-// function Home() {
-//   return (
-//     <div className="home">
-//       <h1 className="home-text">
-//       <b>"Empowering communities, fostering change
-//          <br/>&
-//          <br/>creating a brighter future together"</b>
-//       </h1>
-//       <button className="read-more-button">Read More</button>
-        
-//       <div className="overlay"></div>
-      
-      
-//     </div>
-//   );
-// }
-
-// export default Home;
-
 import React from 'react';
 import '../styles/Home.css'; // Import the CSS file for styling
 
