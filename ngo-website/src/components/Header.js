@@ -10,7 +10,10 @@ function Header() {
       <div className="logo">
         <img src={process.env.PUBLIC_URL + '/logoo.PNG'} alt="Nisum Logo" />
       </div>
-      <div className="ngo-name">Nisum</div>
+
+      <div className="ngo-name">
+        <img src={process.env.PUBLIC_URL + '/nisumLogo1.PNG'} alt="NGO name" />
+      </div>
       <div className="header-links">
         <Link to="/" className="header-link">Home</Link>
         <Link to="/about" className="header-link">About</Link>

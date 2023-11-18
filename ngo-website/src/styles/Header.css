@@ -12,16 +12,16 @@ body {
     background-color: #bdbb33;
   }
   .logo img {
-    height: 55px; 
-    margin-right: 5px;
+    height: 85px; 
+    width: auto;
+    margin-right: 1px;
     margin-top: 5px; 
   }
+ 
   .ngo-name {
-    font-weight: bold;
-    margin-right: 150px; 
-    font-size: 40px; 
-    /* text-shadow: -2px 0 #928a8a, 0 2px #928a8a, 2px 0 #928a8a, 0 -2px #928a8a; */
-    color: black;
+    height: auto;
+    width: 300px;
+    /* width: 50%; */
 
   }
   
