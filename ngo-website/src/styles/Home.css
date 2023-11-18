@@ -6,7 +6,6 @@
   background-attachment: fixed;
   height: 100vh;
 
-  /* Additional styles such as background color, text color, etc. can be added here */
 }
 
 .text-overlay {
@@ -15,8 +14,8 @@
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
-  color: white; /* Text color */
-  font-size: 24px; /* Adjust the font size */
+  color: white; 
+  font-size: 24px; 
 }
 
 .background-overlay {
@@ -25,24 +24,24 @@
   left: 25%;
   width: 50%;
   height: 23%;
-  background-color: rgba(0, 0, 0, 0.4); /* Adjust the opacity by changing the last value (0.5) */
+  background-color: rgba(0, 0, 0, 0.4); 
 }
 
 .home-text {
-  margin-bottom: 20px; /* Adjust the spacing between lines of text */
-  font-size: 30px; /* Adjust the font size */
+  margin-bottom: 20px; 
+  font-size: 30px; 
 }
 
 .read-more-button {
-  padding: 8px 20px; /* Adjust button padding */
+  padding: 8px 20px; 
   position: absolute;
-  background-color: #bdbb33; /* Button background color */
-  color: white; /* Button text color */
+  background-color: #bdbb33; 
+  color: white; 
   border: solid #ccc;
   border-radius: 4px;
   cursor: pointer;
 }
 
 .read-more-button:hover {
-  background-color: grey; /* Button background color on hover */
+  background-color: grey; 
 }

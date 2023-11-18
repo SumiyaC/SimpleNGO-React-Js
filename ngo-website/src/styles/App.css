@@ -1,9 +1,7 @@
-/* Add your custom font link here */
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap');
 
-/* Apply the custom font to the entire page */
 body {
   font-family: 'Poppins', sans-serif;
 }
 
-/* Add any other global styles here */
